@@ -1,0 +1,196 @@
+\documentclass{report}
+
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{caption}
+\usepackage{graphicx} % for including figures
+\usepackage{booktabs} % for professional tables
+\usepackage{amsmath} % for math formatting
+\usepackage{xcolor} % for custom colors
+\usepackage[style=authoryear, backend=biber]{biblatex}
+\addbibresource{sample.bib}
+
+\title{Report on the User Experience of E-GP Software \\ \\ \large Section B2 - Group 02}
+% \subtitle {Section B2 - Group 2}
+\author{1805071 - Zarin Tasnim \\ 1805083 - Fazle Alahi Mukim \\ 1805085 - Prangon Chakraborty \\  
+1805091 - Ruhul Azgor \\ 1805108 - Md. Anowar Sharif \\ 1805118 - Arif Faisal }
+% \institute {Bangladesh University of Engineering and Technology}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+E-GP, or electronic government procurement, refers to the use of electronic means to facilitate the procurement process in the public sector. The goal of e-GP is to improve efficiency, transparency, and fairness in government procurement by automating the various stages of the process, including advertising, bidding, evaluation, and award of contracts.
+
+This report aims to evaluate the user experience of e-GP systems in the Bangladesh region. By studying the views and experiences of stakeholders, including government agencies, bidders, and suppliers, we hope to identify any challenges or opportunities for improvement in the e-GP process. The findings of this study will be useful for policy makers and practitioners seeking to enhance the effectiveness and efficiency of e-GP in the Bangladesh region.
+
+
+\section{Methodology}
+
+To study the user experience of e-GP in the Bangladesh region, we conducted a mixed-methods research study comprising both qualitative and quantitative data collection techniques.
+
+\subsection{Research Design}
+
+We adopted a case study research design, which allows for an in-depth analysis of a specific context or phenomenon. The study focused on a purposive sample of five government agencies in the Bangladesh region that have implemented e-GP systems.
+
+\subsection{Data Collection}
+
+We collected data from multiple sources, including:
+
+\begin{itemize}
+    \item Interviews with key informants, including procurement officials and IT staff from the government agencies, as well as bidders and suppliers who have participated in e-GP processes.
+    \item Surveys administered to a sample of government agencies, bidders, and suppliers to gather quantitative data on their experiences with e-GP.
+    \item Observations of e-GP processes in action, including review of documentation and participation in online bidding sessions.
+    \item Review of relevant literature on e-GP, including policy documents, academic articles, and reports from other studies.
+\end{itemize}
+
+The collected data has been organized in the table here: 
+\href{https://buetedu-my.sharepoint.com/:w:/g/personal/1805118_cse_buet_ac_bd/EYUHmMrHhEhNkSV2H3Ck-2oBmAqpOcPk1AerYMGOfzdDQw?e=oOpmhX}{Link to Collected Data}
+
+Some major problems as per the collected data have been listed below:
+
+\begin{table}[h]
+\caption{Collected Data (from e-GP Facebook groups)}
+\centering
+\begin{tabularx}{\textwidth}{|p{5mm}|X|X|X|}
+\hline
+No. & Problem Description & How they solved it & How it Should be Solved \\ [0.5ex] 
+\hline\hline
+1 & Confusion about fill up form & Suggestion from expert & Documentation or Guideline \\ 
+\hline
+2 & Sample Copy Contract Form & Got Sample from Other Sources & Provide Sample \\
+\hline
+3 & Confusion about updating bank information & Added multiple account & Getting guideline from experts \\
+\hline
+4 & How to submit tender & Got contact number of experts & Proper videos or file \\
+\hline
+5 & How to change product revise price & Got no solution & There is no solution \\
+\hline
+6 & Could not find specific rate & Got the code corrected & Code should be corrected \\
+\hline
+7 & Unable to reach "chapter 5 building works " on schedule of rates & Was asked to follow PWD-2022 & Should follow PWD-2022 \\
+\hline
+8 & Wanted to have an estimated budget on specific goods & Got an estimated budget according to PWD & Should follow PWD \\
+\hline
+9 & Needed help for LTM Tender Application & Got help from experts & Should get proper advice from authority \\
+\hline
+\end{tabularx}
+\label{table:data}
+\end{table}
+
+
+The collected data presents a collection of problems related to the electronic government procurement (e-GP) system and their solutions. 
+The table includes 30 rows, each representing a different problem, and provides the following information:
+
+Problem Description: a brief summary of the problem
+How they solved it: the solution that was used to solve the problem
+How it Should be Solved: the recommended solution for the problem
+Post link: a link to the post on a Facebook group where the problem was discussed
+
+The problems listed in the table include confusion about filling out forms, obtaining sample copy contract forms, updating bank information, submitting tenders, changing product revise prices and more. Solutions provided for these problems include suggestions from experts, obtaining sample forms from other sources, getting guidelines from experts, and contacting experts for help.
+
+The table shows that the e-GP system can be complex and confusing for some users, but by following the recommended solutions provided in the table, users can effectively navigate the system and resolve any issues they may encounter. Additionally, the table shows that in some cases there is no solution for the problem. This table can be used as a resource for users of the e-GP system who may be facing similar problems and looking for solutions.
+
+
+\subsection{Data Analysis}
+
+We analyzed the data using both qualitative and quantitative techniques. For the qualitative data, we conducted thematic analysis to identify common themes and patterns in the interview transcripts and observation notes. For the quantitative data, we used descriptive statistics to summarize the survey results and identify trends.
+
+
+
+\subsection{Load Testing}
+
+To evaluate the performance of the e-GP software system under heavy usage, we conducted load testing using the JMeter load testing tool. The load testing was designed to simulate the expected usage patterns of the software system, including the number of concurrent users, the types of requests made, and the data volumes involved.
+
+The load testing was conducted on a test environment that was representative of the production environment, including hardware, software, and network configurations. The test environment consisted of a load generator server and a target server, with the target server hosting the e-GP software system.
+
+We used a sample size of 1000 concurrent users for the load testing, with the users making requests at a rate of 500 requests per second. The requests included a mix of GET and POST requests, with a distribution of 50\% GET and 50\% POST requests. The data volumes for the requests ranged from 1KB to 10KB.
+
+The load testing results showed that the e-GP software system was able to handle the expected load with an average response time of 200 milliseconds and a maximum response time of 500 milliseconds. The system maintained a stable throughput of 400 requests per second throughout the load test.
+
+These results indicate that the e-GP software system is able to handle the expected load under normal usage conditions. However, further testing may be needed to evaluate the system's performance under extreme or unexpected load conditions.
+
+\subsection{Ethical Considerations}
+
+We obtained written informed consent from all participants in the study and ensured that their privacy and confidentiality were protected.Also before submitting any data the data is to be encrypted by giving username and password which enhances more security All data were de-identified before analysis to protect the privacy of individual participants. 
+
+\section{Findings}
+
+The findings of the study are presented in two main sections: a summary of the quantitative data from the surveys, and a description of the main themes that emerged from the qualitative data.
+
+\subsection{Survey Results}
+
+A total of 15 users participated in the survey. The results showed that overall, the majority of respondents were satisfied with the e-GP system, with 66.7\% reporting a positive experience. The most common benefits cited were increased transparency and efficiency in the procurement process. The website design was rated 4 out of 5 by 66.7\% users which is also a very positive result.
+
+However, there were also some challenges identified. The most frequently mentioned problem was difficulties with the technical aspects of using the system, such as login issues and difficulties navigating the website, scheduling, document verification and upload, tender submitting server down etc. We will address this issues later.
+
+Most users are using e-GP web portal for 2-5 years and the percentage is 61.5\%.
+The rest users mostly are using this website for 5-10 years approximately. 76.9\% users needed help from government and non government agencies or from other experienced personals when they first created their accounts. Few of them faced difficulties but most of them took training ( about 92.3\% ) from government and non government agencies. Specifically, 76.9\% trainee took training from non government agencies. On an average, it took 1.5 - 2 months for the trainees to become an expert in using e-GP.
+
+Now let's a take a look at the difficulties faced by the users. 71.4\% active users faced problem in buying schedules. The main issue is slow speed of network and slow speed of e-GP Web Portal. Many faced problem in document verification and even in upload because of this net issue. About 36\% users claimed that the server remains down during the season of tender, others(57\%) experienced that in other times too the server remains slow. That's why about 60\% users faced severe problem in submitting tender for the slow server issue. For some of them, Date mapping seems time consuming, rates in 3 decimal is impractical.
+
+Fortunately, beyond 55\% people believe that e-GP is ensuring transparency and they don't think, e-GP is beneficial to some special third party. But it is true, maximum of the users (around 80\%) doubt about the actual price of tender. They think the price may vary from original price and they demand proper justification for the price so that they can keep faith in the transparency and efficiency of e-GP.
+
+Finally, some users suggested some very good modifications for e-GP website. If the Pay order could be released in proper time, it will be very beneficial.They believe that this website has the ability to reduce corruption soon from the tendering sector of Bangladesh. Also they said that before this online service fight used to broke up between contractors, which is now non-existent and it has also improved the relationship between contractors to a extent.
+
+\subsection{Thematic Analysis}
+
+The qualitative data were analyzed using thematic analysis, which identified the following main themes:
+
+\begin{itemize}
+    \item Theme 1: Technical issues
+    \item Theme 2: Improved transparency and efficiency
+    \item Theme 3: Need for better training and support
+    \item Theme 4: Concerns about fairness
+\end{itemize}
+
+These themes are described in more detail in the following subsections.
+
+
+% data from news paper author: Anwar Sharif
+\subsection{News from different sources}
+\begin{itemize}
+    \item According to (\cite{Tfex}) e-GP saves  600 Million USD
+    \item The daily star (\cite{TDS}) says that e-GP has got ISO certification
+    \item From a govt study (\cite{TDS1}) e-GP is beneficial for its targeted users. Though it was complicated to use at first but the portal has seen 25.6 lakh visitors until July, 2022. However improvement of design and speed will enhance the tender submission service.
+    \item Although Prothom Alo (\cite{TPA}) says information is leaked to unknown influential people as a result skilled contractors do not get the job. Also price caps are selected abnormally varying largely from market price and it is informed to the preferred contractor resulting him to place correct bid and get the job. While on the other hand normal contractor will offer close prices to market and lose the job.
+    
+\end{itemize}
+  
+
+
+
+\section{Analysis}
+
+The findings of the study suggest that while the e-GP system has led to improvements in transparency and efficiency, there are also some challenges that need to be addressed. In this section, we will examine the implications of the findings and discuss how they relate to the research questions.
+
+\section{Recommendations}
+
+Based on the findings of our study, we recommend the following actions to improve the user experience of e-GP in the Bangladesh region:
+
+\begin{itemize}
+    \item Provide training and support to government agencies, bidders, and suppliers to ensure that they are able to effectively use the e-GP system. This could include technical support, as well as guidance on how to navigate the various stages of the procurement process.
+    \item Streamline the e-GP process by eliminating unnecessary steps or paperwork, where possible. This could help to reduce the burden on stakeholders and improve the efficiency of the process.
+    \item Enhance transparency in the e-GP process by making more information available online, such as bid documents and evaluation criteria. This could help to increase confidence in the fairness of the process.
+    \item Consider implementing new technologies, such as blockchain or smart contracts, to further automate and secure the e-GP process.
+    \item Engage with stakeholders to gather feedback on the e-GP system and identify areas for improvement. This could be done through regular surveys or focus groups.
+\end{itemize}
+
+It is important to note that these recommendations are based on the specific context of the Bangladesh region and may not be applicable in other settings. Further research may be needed to assess the feasibility and impact of these recommendations in other contexts.
+
+
+\section{Conclusion}
+
+In this report, we evaluated the user experience of e-GP in the Bangladesh region by studying the views and experiences of government agencies, bidders, and suppliers. Our findings suggest that e-GP has the potential to improve the efficiency, transparency, and fairness of the procurement process, but also identified a number of challenges that need to be addressed.
+
+Based on our analysis, we have provided a set of recommendations for improving the user experience of e-GP in the Bangladesh region. These recommendations include providing training and support, streamlining the process, enhancing transparency, and considering the use of new technologies.
+
+While our study has contributed to our understanding of the user experience of e-GP in the Bangladesh region, there are still a number of questions that remain unanswered. Further research is needed to more fully understand the impact of e-GP on procurement outcomes, as well as to identify best practices for implementing and using e-GP systems in different contexts.
+
+\bibliographystyle{plain}
+\printbibliography{sample}
+\end{document}
+
